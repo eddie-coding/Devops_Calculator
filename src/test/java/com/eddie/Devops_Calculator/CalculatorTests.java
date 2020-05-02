@@ -15,7 +15,7 @@ private Calculator calculator;
         int a = 15;
         int b = 20;
         int expectedResult = 35;
-        long result = calculator.add(a, b);
+        int result = calculator.add(a, b);
         Assert.assertEquals(expectedResult, result);;
     }
     
@@ -24,7 +24,7 @@ private Calculator calculator;
         int a = 25;
         int b = 20;
         int expectedResult = 5;
-        long result = calculator.subtract(a, b);
+        int result = calculator.subtract(a, b);
         Assert.assertEquals(expectedResult, result);;
     }
     
