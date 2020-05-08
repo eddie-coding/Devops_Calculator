@@ -1,9 +1,10 @@
 package com.eddie.Devops_Calculator;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
-/*public class Calculator {
+public class Calculator {
 	public static void main(String[] args){
+		System.out.println("*****Simple-Calculator*******");
 		System.out.println("6 + 3 = " + add(6, 3));
 		System.out.println("6 - 3 = " + subtract(6,3));
 		System.out.println("6 * 3 = " + multiply(6,3));
@@ -32,10 +33,10 @@ import java.util.Scanner;
 		return result;
 	}
 
-}*/
+}
 
 
-public class Calculator 
+/*public class Calculator 
 {
 	public static void main(String[] args) 
 	{
@@ -114,7 +115,7 @@ public class Calculator
 		}
 		return result;
 	}
-}
+}*/
 	
 
 
